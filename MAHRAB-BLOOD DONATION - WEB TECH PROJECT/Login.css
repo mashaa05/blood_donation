@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #fdeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+.navbar
+{
+    width: 100%;
+    background-color: #b30000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-area
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+    object-fit: contain;
+}
+
+.logo-text
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navmenu a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navmenu a:hover
+{
+    text-decoration: bold;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 520px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px 35px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+header
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header .logo img
+{
+    width: 120px;
+}
+
+header h1
+{
+    font-size: 32px;
+    color: #b30000;
+    font-weight: bold;
+}
+
+.login-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2
+{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #b30000;
+}
+
+.input-group
+{
+    margin-bottom: 18px;
+}
+
+.input-group label
+{
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+.input-group input
+{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-group input:focus
+{
+    border-color: #b30000;
+}
+
+.forgot-password
+{
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.forgot-password a
+{
+
+    color: #b30000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover
+{
+    text-decoration: bold;
+}
+
+.login-btn
+{
+    background-color: #b30000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover
+{
+    background-color: #990000;
+}
+
+.create-account
+{
+    text-align: center;
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+.create-account a
+{
+    color: #b30000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.create-account a:hover
+{
+    text-decoration: bold;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #555;
+}
+
+.home-btn
+{
+    background-color: white;
+    color: #b30000 !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.btn-group
+{
+    margin-top: 25px;
+}
+
+@media (max-width: 360px)
+{
+    .container
+    {
+        padding: 25px 20px;
+    }
+
+    header h1
+    {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .navbar
+    {
+        padding: 12px 20px;
+    }
+
+    .logo-text
+    {
+        font-size: 22px;
+    }
+
+    .logo-img
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+    .container
+    {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 1200px) 
+{
+    .container 
+    {
+        max-width: 650px;
+    }
+}
