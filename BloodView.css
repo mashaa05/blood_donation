@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #f4f6f8;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8b0000;
+    padding: 14px 30px;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-search {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-search select,
+.nav-search input {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.nav-search button {
+    background: white;
+    color: #8b0000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-right .nav-btn {
+    color: white;
+    text-decoration: none;
+    margin-left: 14px;
+    padding: 8px 14px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.nav-right .nav-btn:hover {
+    background: white;
+    color: #8b0000;
+}
+
+/* MAIN CARD */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* HEADINGS */
+h1 {
+    color: #8b0000;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table th {
+    background: linear-gradient(135deg, #8b0000, #a11212);
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* ORDER BUTTON */
+.order-btn {
+    background: #8b0000;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.order-btn:hover {
+    background: #a11212;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
