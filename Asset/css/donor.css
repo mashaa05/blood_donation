@@ -1,0 +1,54 @@
+
+
+.sidebar {
+    width: 250px;
+    background-color: #b30000;
+    min-height: calc(100vh - 120px);
+}
+
+.content {
+    padding: 40px;
+    flex: 1;
+}
+
+.dashboard-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #b30000;
+    max-width: 700px;
+}
+
+.dashboard-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #b30000;
+}
+
+
+
+.donor_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.donor_table th,
+.donor_table td {
+    border: 1px solid #ccc;
+    padding: 14px;
+    text-align: left;
+}
+
+.donor_table th {
+    background-color: #f5caca;
+    color: #000;
+}
+
+
+
+#statusText {
+    margin-left: 10px;
+    font-weight: bold;
+}

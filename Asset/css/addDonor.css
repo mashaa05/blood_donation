@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #333;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: #b30000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 450px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header .logo img {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #b30000;
+}
+
+
+.addDonor-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-group,
+.Phonenum,
+.bloodGrp {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #b30000;
+    box-shadow: 0 0 0 2px rgba(177, 18, 38, 0.15);
+}
+
+
+.save-btn{
+    margin-top: 10px;
+    padding: 12px;
+    background: #b30000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.save-btn:hover {
+    background: #b30000;
+}
+
+
+
