@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add hospital</title>
+    <link rel="stylesheet" href="../Asset/css/addHospital.css">
+</head>
+<body>
+    <nav class="navbar">
+            <div class="logo-area">
+                <img src="../Asset/img/Logo.png" alt="Blood Bridge BD Logo" class="logo-img">
+                <span class="logo-text">Blood Bridge BD</span>
+            </div>
+        </nav>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <img src="../Asset/img/Logo.png" alt="Blood Bridge BD Logo" />
+            </div>
+            <h1>Blood Bridge BD</h1>
+        </header>
+        <div class="addHospital-form">
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="Hname">Hospital Name</label>
+                    <input type="text" id="Hname" name="Hname" required placeholder="Enter hospital name">
+                </div>
+                
+                <div class="input-group">
+                    <label for="location">Location</label>
+                    <input type="location" id="location" name="location" required placeholder="Enter location">
+                </div>
+                                            
+                <button type="submit" class="save-btn">Save</button>
+            </form>
+            
+            
+
+        </div>
+</body>
+</html>

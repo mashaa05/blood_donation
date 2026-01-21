@@ -1,0 +1,279 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body
+{
+    background-color: #fdeaea;
+    color: #333;
+    padding-top: 90px;
+}
+
+.navbar
+{
+    width: 100%;
+    background-color: #b30000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-area
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+    object-fit: contain;
+}
+
+.logo-text
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navmenu a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.navmenu a:hover
+{
+    text-decoration: bold;
+}
+
+.navmenu .home-btn
+{
+    color: #ffffff !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+.navmenu .login-btn
+{
+    color: #ffffff !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+header
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header .logo img
+{
+    width: 120px;
+}
+
+header h1
+{
+    font-size: 32px;
+    color: #b30000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.register-form h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b30000;
+}
+
+.input-group
+{
+    margin-bottom: 15px;
+}
+
+.input-group label
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input
+{
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+}
+
+.input-group select
+{
+
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    background: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: none;
+}
+
+.input-group input:focus
+{
+    border-color: #b30000;
+}
+
+.input-group select:focus
+{
+    border-color: #b30000;
+}
+
+.role-title
+{
+    margin: 20px 0 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.radio-wrapper
+{
+    margin-bottom: 15px;
+}
+
+.radio-group
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+}
+
+
+.radio-group label
+{
+    flex: 1;
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #b30000;
+    border-radius: 15px;
+    white-space: nowrap;
+    font-size: 15px;
+    cursor: pointer;
+    color: #b30000;
+    padding: 6px 10px;
+    transition: all 0.2s ease;
+}
+
+.radio-group input
+{
+    display: none;
+}
+
+.radio-group input:checked + .radio_label
+{
+    background: #b30000;
+    color: #ffffff;
+    border-color: #b30000;
+}
+
+.terms-group
+{
+    margin: 15px 0;
+}
+
+.terms-group label
+{
+    font-size: 14px;
+}
+
+.terms-group a
+{
+    color: #b30000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register-btn
+{
+    width: 100%;
+    padding: 14px;
+    background: #b30000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register-btn:hover
+{
+    background-color: #990000;
+}
+
+.footer
+{
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+@media screen and(max-width: 768px)
+{
+    .container
+    {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    header h1
+    {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 650px;
+    }
+}

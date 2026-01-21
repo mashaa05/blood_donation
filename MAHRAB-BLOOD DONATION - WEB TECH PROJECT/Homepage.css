@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body
+{
+    background-color: #fdeaea;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #b30000;
+}
+
+.logo-area
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+    object-fit: contain;
+}
+
+.logo-text
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navmenu a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.navmenu a:hover
+{
+    text-decoration: bold;
+}
+
+.container
+{
+    width: 90%;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+}
+
+.leftside
+{
+    width: 40%;
+    padding: 40px;
+    background: linear-gradient(135deg, #b30000, #b30000);
+    color: white;
+}
+
+.leftside h1
+{
+    font-size: 44px;
+}
+
+.leftside h2
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.leftside p
+{
+    line-height: 1.6;
+}
+
+.leftside button
+{
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: white;
+    color: #b30000;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.leftside button:hover
+{
+    background-color: #ffe6e6;
+}
+
+.rightside
+{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff5f5;
+}
+
+.rightside img
+{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.aboutus
+{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.aboutus h2
+{
+    font-size: 32px;
+    color: #b30000;
+}
+
+.footer
+{
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.login-btn
+{
+    background-color: white;
+    color: #b30000 !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.btn-group
+{
+    margin-top: 25px;
+}
+
+.login-btn2
+{
+    margin-left: 15px;
+    padding: 12px 25px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-btn2:hover
+{
+    background-color: white;
+    color: #b30000;
+}
+
+@media (max-width: 768px)
+{
+    .navbar
+    {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+
+    .left, .right
+    {
+        width: 100%;
+    }
+
+    .left h1
+    {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1200px;
+    }
+}
